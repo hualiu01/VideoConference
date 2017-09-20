@@ -12,7 +12,6 @@ webRTC is a free, open project that enables web browsers with Real-Time Communic
 * Please first, in the root path, create and configure a `.env` file based on the `.env.default` file for your local database.
 * Run these two commonds in two seperate terminals:
 > nodemon
-
 > webpack
 
 Under debug mode, nodemon will auto-restart the project everytime changes are made in the source files.
