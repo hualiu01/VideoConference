@@ -9,11 +9,13 @@ webRTC is a free, open project that enables web browsers with Real-Time Communic
 * SocketIO 5.0.4
 
 # run from terminal
-1. Please first, in the root path, create and configure a `.env` file based on the `.env.default` file for your local database.
-2. Run these two commonds in two seperate terminals:
+* Please first, in the root path, create and configure a `.env` file based on the `.env.default` file for your local database.
+* Run these two commonds in two seperate terminals:
 > nodemon
 > webpack
+
 Under debug mode, nodemon will auto-restart the project everytime changes are made in the source files.
+
 
 # demo
 youtube video demo: https://www.youtube.com/watch?v=2Qz2GjgKAIk
