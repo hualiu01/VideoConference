@@ -1,0 +1,17 @@
+This a multi-room multi-user video conference website with login system using NodeJS and webRTC.It also supports real time chat and poll in room using socketIO.
+
+Tools: Javascript,webRTC,SocketIO,NodeJS,MySQL
+
+# Dependencies
+nodemon
+webpack
+NodeJS
+SocketIO
+
+# run from terminal
+> nodemon
+> webpack
+Note: these two commonds should be running in two seperate terminals.
+
+# reference
+https://github.com/andyet/SimpleWebRTC

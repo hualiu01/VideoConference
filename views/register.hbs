@@ -1,0 +1,31 @@
+{{> header }}
+
+<div class="container well loginform">
+
+	<h1>{{title}}</h1>
+
+	{{#if errorMessage}}
+	<div class="alert alert-danger">
+	{{errorMessage}}
+	</div>
+	{{/if}}
+
+	<form method="POST" action="/register" >
+	  <div class="form-group">
+	    <label for="roomname">Room Name</label>
+	    <input type="text" class="form-control" name="roomname" placeholder="Room Name 0-11 characters">
+	  </div>
+	  <div class="form-group">
+	    <label for="password">Password</label>
+	    <input type="password" class="form-control" name="password" placeholder="Password 0-20 digits">
+	  </div>
+	  <div class="form-group">
+	    <label for="passwordMatch">Re-Enter Password</label>
+	    <input type="password" class="form-control" name="passwordMatch" placeholder="Password">
+	  </div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+
+</div>
+
+{{> footer-end }}

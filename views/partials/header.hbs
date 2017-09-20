@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{{ title }}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href='/css/style.css'>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/lib/adapter.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+      <div class="header clearfix" id = "navbar">
+        <nav class="navbar navbar-inverse" style = "min-height: 30px;margin-bottom :0px;">
+          <ul class="nav float-left">
+            <li class="nav-item" id="RUPAlogo"> 
+            RUPayingAttention</li>
+          </ul>
+          <ul class="nav float-center"">
+            <li class="nav-item" id="roomnameLogo"> 
+            Room {{roomname}} - ID <span id="roomid">{{roomid}}</span></li>
+          </ul>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="/register">Register Room</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Join Room</a>
+            </li>
+          </ul>
+        </nav>
+      </div>    
+    
+      
